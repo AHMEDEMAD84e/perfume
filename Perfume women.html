@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Store</title>
+    <!--Link Css-->
+<link rel="stylesheet" href="Css/Perfume Women.css">
+<!--Remix icon-->
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <!--Header-->
+<header>
+    <!--Nav-->
+    <div class="nav container">
+        <!--Menu Icon-->
+    <i class="ri-menu-line" id="menu-icon"></i> 
+    <!--Logo-->
+    <a href="Perfume.html" class="logo">Scentique</a>
+    <!--Navbar-->
+    <div class="navabar">
+        <a href="Perfume.html" class="nav-link">Parfume</a>
+        <a href="Perfume men.html" class="nav-link">Parfume Man,s</a>
+        <a href="Perfume women.html" class="nav-link">Parfume Women</a>
+      <a href="About.html" class="nav-link">About Shop</a> 
+    </div>
+<!--Cart icon-->
+<a href="cart.html">
+    <i class="ri-shopping-bag-line" id="cart-icon"><span id="cart-count">0</span></i>
+</a>
+    </div>
+</header>    
+    <!---Home-->
+   <section class="home" id="home">
+    <div class="home-img container">
+        <img src="Image/Home2.png" alt="">
+    </div>
+   </section> 
+   <!--Products-->
+   <section class="products container" id="products">
+    <!--Heading-->
+    <h2 class="heading">Perfume For Women,s</h2>
+    <div class="product-container" id="productlist">
+        <div class="product">
+            <!--Product1-->
+            <img src="Image/Product1.png" class="product-img" alt="Perfume Men,s"/>
+            <div class="product-info">
+                <h2 class="product-title">BlEU DE CHANEL</h2>
+                <p class=" product-price">$450</p>
+                <a class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">Add to Cart</a>
+            </div>
+        </div>
+          <div class="product">
+            <!--prodcut2-->
+            <img src="Image/Product2.png" class="product-img"   alt="Perfume Men,s"/>
+            <div class="product-info">
+                <h2 class="product-title">N.5 CHANEL</h2>
+                <p class=" product-price">$550</p>
+                <a class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">Add to Cart</a>
+            </div>
+        </div>
+          <div class="product">
+              <!--prodcut3-->
+            <img src="Image/product3.png" class="product-img"  alt="Perfume Men,s"/>
+            <div class="product-info">
+                <h2 class="product-title">No Name</h2>
+                <p class=" product-price">$650</p>
+                <a class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">Add to Cart</a>
+            </div>
+        </div>
+          <div class="product">
+              <!--prodcut4-->
+            <img src="Image/Product4.png" class="product-img"  alt="Perfume Men,s"/>
+            <div class="product-info">
+                <h2 class="product-title">CHANEL N5</h2>
+                <p class=" product-price">$890</p>
+                <a class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">Add to Cart</a>
+            </div>
+        </div>
+          <div class="product">
+              <!--prodcut5-->
+            <img src="Image/Product5.png" class="product-img"  alt="Perfume Men,s"/>
+            <div class="product-info">
+                <h2 class="product-title">Versace</h2>
+                <p class=" product-price">$550</p>
+                <a class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">Add to Cart</a>
+            </div>
+        </div>
+          <div class="product">
+              <!--prodcut6-->
+            <img src="Image/Product6.png" class="product-img"  alt="Perfume Men,s"/>
+            <div class="product-info">
+                <h2 class="product-title">BlEU DE</h2>
+                <p class=" product-price">$450</p>
+                <a class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">Add to Cart</a>
+            </div>
+        </div>
+          <div class="product">
+              <!--prodcut7-->
+            <img src="Image/Prodcut7.png" class="product-img"  alt="Perfume Men,s"/>
+            <div class="product-info">
+                <h2 class="product-title">Davidoff</h2>
+                <p class=" product-price">$350</p>
+                <a class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">Add to Cart</a>
+            </div>
+        </div>
+          <div class="product">
+              <!--prodcut8-->
+            <img src="Image/Product8.png" class="product-img"  alt="Perfume Men,s"/>
+            <div class="product-info">
+                <h2 class="product-title">The Icon</h2>
+                <p class=" product-price">$700</p>
+                <a class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+   </section>
+<!-- Footer -->
+ <!----
+<div class="footer" id="footer">
+    <div class="footer-c container">
+        <div class="footer-box">
+            <h2>Scentique</h2>
+            <div class="social">
+                <a href="#"><i class="ri-pinterest-line"></i></a>
+                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="#"><i class="ri-facebook-line"></i></a>  
+                <a href="#"><i class="ri-whatsapp-line"></i></a>
+                <a href="#"><i class="ri-youtube-line"></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Help</h3>
+            <a href="#">Contact Us</a>
+            <a href="#">FAQ</a>
+            <a href="#">Shipment</a>
+            <a href="#">Payment</a>
+            <a href="#">Track your Order</a>
+            <a href="#">Return Your Order</a>
+        </div>
+        <div class="footer-box">
+            <h3>Legal Info</h3>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Return Policy</a>
+            <a href="#">Community</a>
+            <a href="#">Gift Card</a>
+        </div>
+    </div>
+    <p class="copyright container">
+        &#169; Ahmed Emad Ibrahim
+    </p>
+</div> -->
+<!-- Link to JS -->
+<script src="js/main.js"></script>
+</body>
+</html>
